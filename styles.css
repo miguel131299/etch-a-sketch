@@ -1,0 +1,54 @@
+:root {
+  --title: #333;
+  --background: #ededed;
+  --button-border: #333;
+  --button: #555;
+  --button-hover: #444;
+  --button-active: #333;
+  --border: #222;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6;
+}
+
+.container {
+    padding: 1rem;
+}
+
+body {
+    background-color: rgb(225, 236, 236);
+    
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 3rem;
+
+    margin-bottom: 10rem;
+}
+
+#grid-container {
+    display: grid;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 2rem auto;
+    border: 2px solid var(--border);
+}
+
+.grid-square {
+    border: 1px solid var(--border);
+    background-color: var(--background);
+}
+
