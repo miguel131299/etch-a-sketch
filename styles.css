@@ -1,11 +1,6 @@
 :root {
-  --title: #333;
-  --background: #ededed;
-  --button-border: #333;
-  --button: #555;
-  --button-hover: #444;
-  --button-active: #333;
-  --border: #222;
+  --background: #f5f2f0;
+  --border: #212121;
 }
 
 * {
@@ -15,27 +10,29 @@
 }
 
 html {
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 62.5%;
     line-height: 1.6;
+}
+
+body {
+    background-color: var(--background);
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+header {
+    margin-top: 3rem;
+    padding: 2rem;
+    font-size: 3.2rem;
 }
 
 .container {
     padding: 1rem;
 }
 
-body {
-    background-color: rgb(225, 236, 236);
-    
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-}
-
 .title {
     font-size: 3rem;
-
     margin-bottom: 10rem;
 }
 
