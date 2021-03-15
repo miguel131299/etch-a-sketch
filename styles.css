@@ -1,6 +1,9 @@
 :root {
   --background: #f5f2f0;
   --border: #212121;
+  --button: orange;
+  --button-text: white;
+  --button-border-hover: white;
 }
 
 * {
@@ -34,6 +37,23 @@ header {
 .title {
     font-size: 3rem;
     margin-bottom: 10rem;
+}
+
+#size-button {
+    width: fit-content;
+    padding: 5px;
+    font-size: 2rem;
+    color: var(--button-text);
+    font-weight: 700;
+    background-color: var(--button);
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+
+#size-button:hover {
+    transform: scale(1.1);
+    border-color: var(--button-boder-hover);
+    box-shadow:  1px 1px var(--border);
 }
 
 #grid-container {
