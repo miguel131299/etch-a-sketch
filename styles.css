@@ -49,3 +49,14 @@ header {
     background-color: var(--background);
 }
 
+@media (max-width: 736px) {
+
+    .title {
+        font-size: 2.6rem;
+    }
+
+    #grid-container {
+        max-width: 300px;
+        min-height: 300px;
+    }
+}
